@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine; 
+}
+
+.container .form-container{
+    padding: 40px 50px;
+    background-image: linear-gradient(45deg, #56ab2f, #b68c8c);
+    border-radius: 5px;
+    box-shadow: 0 0 20px  0 rgb(0, 0, 0);
+}
+
+.container .form-container .heading h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.container .form-container .input-box input{
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #ffffff;
+    color: #000000;
+    font-size: 13px;
+    padding: 4px 0px 25px;
+    margin-bottom: 20px;
+    height: 33px;
+    transition: 0.5s all;
+}
+
+.container .form-container .input-box ::-webkit-input-placeholder{
+    color: rgb(107, 84, 192);
+}
+
+.container .form-container .input-box textarea{
+    width: 100%;
+    background: transparent;
+    border: none;
+    border-bottom: 2px solid #ffffff;
+    color: #000000;
+    font-size: 1rem;
+    padding: 4px 0px 25px;
+    margin-bottom: 20px;
+    transition: 0.5s all;
+}
+
+.container .form-container .input-box input:focus,
+.container .form-container .input-box textarea:focus{
+    outline: none;
+    border-color: #fff;
+}
+
+.container .form-container .input-box .icon{
+    color: #fff;
+
+}
+
+.container .form-container .submit button{
+    width: 100%;
+    background-color: #e9e4dd;
+    border: none;
+    outline:none;
+    color: #555;
+    height: 40px;
+    transition: 0.8s all;
+    font-size: 15px;
+    text-transform: uppercase;
+    font-weight: bold;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.container .form-container .submit button:hover{
+    color: rgb(255, 153, 0);
+    background-color: #ffffff;
+}
